@@ -31,6 +31,7 @@ body {
   background: #111;
   letter-spacing: 0.2rem;
 }
+/*  header section's styling starts here*/
 header {
   position: fixed;
   top: 0;
@@ -86,6 +87,8 @@ header .icons a {
   font-size: 3rem;
   text-decoration: none;
 }
+/*  header section's styling ends here*/
+/*  cursor styling begins here*/
 .cursor-1 {
   position: absolute;
   top: 500px;
@@ -119,10 +122,12 @@ header .icons a {
 .cursor-2 .active {
   display: none;
 }
+/*  cursor's styling ends here*/
 section {
   padding: 1rem;
   min-height: 100vh;
 }
+/* home styling starts here */
 .home {
   display: flex;
   align-items: center;
@@ -168,6 +173,8 @@ section {
   font-weight: 700;
   display: block;
 }
+/* home styling ends here */
+/* about section's styling starts here  */
 .about .row-1 {
   display: flex;
   flex-wrap: wrap;
@@ -235,6 +242,8 @@ section {
   font-size: 1.5rem;
   padding-top: 2rem;
 }
+/* about section's styling ends here */
+/* contact section starts here*/
 .contact .heading {
   font-size: 5rem;
   font-weight: 700;
@@ -309,6 +318,8 @@ section {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
+/*contact section's styling ends here  */
+/* footer's styling starts here */
 .footer {
   margin-top: 2rem;
   font-size: 2rem;
@@ -320,6 +331,9 @@ section {
 .footer span {
   color: #ff4500;
 }
+/* footer section's styling ends here  */
+
+/* starting media queries */
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -352,3 +366,4 @@ section {
     width: 100%;
   }
 }
+
