@@ -1,3 +1,4 @@
+/*Google Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300&family=PT+Sans&display=swap');
 * {
   box-sizing: border-box;
@@ -31,6 +32,7 @@ body {
   background: #111;
   letter-spacing: 0.2rem;
 }
+/*--===========HEADER SECTION START==========*/
 header {
   position: fixed;
   top: 0;
@@ -77,6 +79,8 @@ header .icons a {
   font-size: 3rem;
   text-decoration: none;
 }
+/*--===========HEADER SECTION END==========*/
+/*--===========CURSOR SECTION START==========*/
 .cursor-1 {
   position: absolute;
   top: 500px;
@@ -111,6 +115,7 @@ header .icons a {
 .cursor-2 .active {
   display: none;
 }
+/*--===========CURSOR SECTION END==========*/
 section {
   padding: 1rem;
   min-height: 100vh;
@@ -160,6 +165,7 @@ section {
   font-weight: bold;
   display: block;
 }
+/*==============ABOUT SECTION START===============*/
 .about .row-1 {
   display: flex;
   flex-wrap: wrap;
@@ -275,6 +281,8 @@ section {
   font-size: 1.5rem;
   padding-top: 2rem;
 }
+/*--===========ABOUT SECTION END==========*/
+/*--===========CONTACT SECTION START==========*/
 .contact .heading{
   font-size: 5rem;
   font-weight: bold;
@@ -362,7 +370,8 @@ section {
   margin-top: 0;
   margin-bottom: 1.5rem;
 }
-
+/*--===========CONTACT SECTION END==========*/
+/*===============fOOTER SECTION START========*/ 
 .footer{
   margin-top: 2rem;
   font-size: 2rem;
@@ -375,8 +384,9 @@ section {
 .footer span{
   color:orangered;
 }
-
+/*==================FOOTER SECTION END=====*/
 /* media queries */
+/*=============TABLET DEVICES============*/
 @media (max-width: 991px) {
   html {
     font-size: 55%;
@@ -397,7 +407,7 @@ section {
   .cursor-2 {
     display: none;
   }
-}
+/*=============MOBILE DEVICES============*/
 @media (max-width: 450px) {
   html {
     font-size: 50%;
