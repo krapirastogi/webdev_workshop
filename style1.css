@@ -15,20 +15,24 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background: #fcf2e8;
+  background: #464646;
   padding-left: 30rem;
 }
 .btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
-  background: #ff4500;
+  background: #3FA796;
   color: #fff;
   cursor: pointer;
   font-size: 1.7rem;
+  border-radius: 10px;
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .btn:hover {
-  background: #111;
+  color: #3FA796;
+  background:#fff;
   letter-spacing: 0.2rem;
 }
 /*  header section's styling starts here*/
@@ -37,7 +41,7 @@ header {
   top: 0;
   left: 0;
   bottom: 0;
-  background: #222;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -55,18 +59,20 @@ header .logo {
 }
 header .logo span {
   text-transform: uppercase;
-  color: #ff4500;
+  color: #3FA796;
+  
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
 }
 header .navbar a {
   display: block;
   font-size: 2rem;
-  color: #fff;
+  color: #111;
   margin: 2rem 0;
 }
 header .navbar a:hover {
   letter-spacing: 1.2rem;
   font-weight: 700;
-  color: #ff4500;
+  color: #3FA796;
 }
 header .icons a:hover {
   letter-spacing: 2rem;
@@ -83,7 +89,7 @@ header .icons a .fa-instagram:hover{
     }
 header .icons a {
   letter-spacing: 1.2rem;
-  color: #ff4500;
+  color: #3FA796;
   font-size: 3rem;
   text-decoration: none;
 }
@@ -95,7 +101,7 @@ header .icons a {
   left: 0;
   height: 1rem;
   width: 1rem;
-  background: #ff4500;
+  background: #3FA796;
   pointer-events: none;
   transform: translate(-50%, -50%);
   border-radius: 50%;
@@ -113,7 +119,7 @@ header .icons a {
   height: 1rem;
   width: 1rem;
   pointer-events: none;
-  border: 0.1rem solid #ff4500;
+  border: 0.1rem solid #3FA796;
   transform: translate(-50%, -50%);
   border-radius: 50%;
   z-index: 1000;
@@ -140,38 +146,51 @@ section {
 .home .image img {
   width: 85%;
   padding-left: 50px;
-  border-radius: 40%;
+  border-radius: 50%;
+  
   
 }
 .home .content .hi {
   font-size: 3rem;
   font-weight: 700;
-  color: #ff4500;
-  padding: 20px;
+  color: #3FA796;
+
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
 }
 .home .content h3 {
   font-size: 4.5rem;
-  color: #111;
+  color: #fff;
   text-transform: uppercase;
+
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .home .content {
   flex: 1 1 40rem;
+  padding: 2vh 2vw;
 }
 .home .content h3 span {
-  color: #ff4500;
+  color: #3FA796;
   text-transform: uppercase;
+
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .home .content .info {
   font-size: 2.5rem;
-  color: #111;
+  color: #fff;
   padding: 5rem 0;
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .home .content .text {
   font-size: 1.7rem;
-  color: #111;
+  color: #fff;
   padding: 5rem 0;
   font-weight: 700;
   display: block;
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 /* home styling ends here */
 /* about section's styling starts here  */
@@ -185,18 +204,25 @@ section {
   font-size: 5rem;
   font-weight: 700;
   padding: 20px;
+  color: antiquewhite;
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .about .row-1 .content {
   flex: 1 1 50rem;
 }
 .about .row-1 .content h3 {
-  color: #333;
+  color: #fff;
   font-size: 3.5rem;
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .about .row-1 .content p {
-  color: #666;
+  color: #fff;
   font-size: 1.7rem;
   padding: 0.5rem 0;
+  text-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 5px rgba(255, 255, 255, 0.5),0 0 5px rgba(255, 255, 255, 0.3);
+
 }
 .about .row-1 .content .box-container {
   display: flex;
@@ -208,7 +234,7 @@ section {
   flex: 1 1 20rem;
 }
 .about .row-1 .content .box-container .box span {
-  color: #ff4500;
+  color: #3FA796;
 }
 .about .row-2 {
   display: flex;
@@ -231,14 +257,15 @@ section {
   background: #fff;
   padding: 2rem;
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 3px rgba(255, 255, 255, 0.5),0 0 1px rgba(255, 255, 255, 0.3);
+
 }
 .about .row-2 .skills-container .three h3 {
-  color: #ff4500;
+  color: #3FA796;
   font-size: 3rem;
 }
 .about .row-2 .skills-container .three p {
-  color: #666;
+  color: #333;
   font-size: 1.5rem;
   padding-top: 2rem;
 }
@@ -248,6 +275,7 @@ section {
   font-size: 5rem;
   font-weight: 700;
   padding: 20px;
+  color: #fff;
 }
 .contact .icons-container {
   display: flex;
@@ -260,7 +288,8 @@ section {
   text-align: center;
   padding: 2rem;
   background: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 3px rgba(255, 255, 255, 0.5),0 0 1px rgba(255, 255, 255, 0.3);
+
   border-radius: 0.5rem;
 }
 .contact .icons-container .icons i {
@@ -268,7 +297,7 @@ section {
   width: 5rem;
   line-height: 5rem;
   font-size: 2rem;
-  background: #ff4500;
+  background: #3FA796;
   color: #fff;
   border-radius: 50%;
 }
@@ -279,7 +308,7 @@ section {
   padding-top: 1rem;
 }
 .contact .icons-container .icons p {
-  color: #666;
+  color: #333;
   font-size: 1.7rem;
 }
 .contact .row {
@@ -289,14 +318,17 @@ section {
   flex: 1 1 55rem;
   background: #fff;
   padding: 0 2rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px #111111, 0 0 5px rgba(255, 255, 255, 0.8),0 0 3px rgba(255, 255, 255, 0.5),0 0 1px rgba(255, 255, 255, 0.3);
+
   border-radius: 0.5rem;
+
 }
 .contact .row form .box,
 .contact .row form textarea {
   width: 100%;
-  border-bottom: 0.1rem solid #333;
-  color: #333;
+  /* border-bottom: 0.1rem solid #fff; */
+  border-radius: 10px;
+  /* color: #111; */
   text-transform: none;
   font-size: 1.7rem;
   padding: 1rem 0;
@@ -304,7 +336,7 @@ section {
 }
 .contact .row form .box:focus,
 .contact .row form textarea:focus {
-  border-color: #ff4500;
+  border-color: #3FA796;
 }
 .contact .row form .box::placeholder,
 .contact .row form textarea::placeholder {
@@ -325,11 +357,13 @@ section {
   font-size: 2rem;
   padding: 2.5rem;
   text-align: center;
-  color: #666;
+  color: #fff;
   background: #fff;
+  box-shadow: 0 0 3px #111111, 0 0 3px rgba(255, 255, 255, 0.8),0 0 3px rgba(255, 255, 255, 0.5),0 0 1px rgba(255, 255, 255, 0.3);
+
 }
 .footer span {
-  color: #ff4500;
+  color: #3FA796;
 }
 /* footer section's styling ends here  */
 
@@ -364,6 +398,27 @@ section {
   }
   header {
     width: 100%;
+  }
+}
+
+.snow
+{
+
+position:absolute;
+width: 100vw;
+height: 318vh;
+z-index: -100;
+background-image: url("./images/SnowOverlay.png");
+background-size: 100vw 100vh;
+background-repeat: repeat-y;
+animation: myfirst 20s linear 2s infinite;
+}
+@keyframes myfirst {
+  0%{
+    background-position-y: 0%;
+  }
+  100%{
+    background-position-y: 100%;
   }
 }
 
