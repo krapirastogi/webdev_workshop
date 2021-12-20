@@ -369,40 +369,8 @@ section {
 }
 /* footer section's styling ends here  */
 
-/* starting media queries */
-@media (max-width: 991px) {
-  html {
-    font-size: 55%;
-  }
-  body {
-    padding: 0;
-  }
-  #menu-bars {
-    display: initial;
-  }
-  header {
-    left: -120%;
-  }
-  header.active {
-    left: 0;
-  }
-  .cursor-1,
-  .cursor-2 {
-    display: none;
-  }
-}
-@media (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-  body {
-    padding: 0;
-  }
-  header {
-    width: 100%;
-  }
-}
-/* snow overlay */
+
+
 .snow
 {
 
@@ -424,3 +392,42 @@ animation: myfirst 20s linear 2s infinite;
   }
 }
 
+/* starting media queries */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+  body {
+    padding: 0;
+  }
+  #menu-bars {
+    display: initial;
+  }
+  header {
+    left: -120%;
+  }
+  header.active {
+    left: 0;
+  }
+  .cursor-1,
+  .cursor-2 {
+    display: none;
+  }
+  .snow{
+    height: 450%;
+  }
+}
+@media (max-width: 450px) {
+  .snow{
+    height: 450%;
+  }
+  html {
+    font-size: 50%;
+  }
+  body {
+    padding: 0;
+  }
+  header {
+    width: 100%;
+  }
+}
